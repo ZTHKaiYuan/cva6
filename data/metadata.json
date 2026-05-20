@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-05-20T12:23:20.457223+00:00",
+  "repo": "ZTHKaiYuan/cva6",
+  "workflows": [
+    "ci",
+    "tier1",
+    "tier2"
+  ]
+}
