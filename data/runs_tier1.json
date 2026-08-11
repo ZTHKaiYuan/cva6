@@ -1,5 +1,60 @@
 [
   {
+    "id": 31488029353,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 29,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/31488029353",
+    "head_branch": "master",
+    "head_sha": "3496afa0",
+    "event": "pull_request",
+    "created_at": "2026-08-11T11:45:11Z",
+    "updated_at": "2026-08-11T11:51:13Z",
+    "run_started_at": "2026-08-11T11:45:11Z",
+    "duration_seconds": 362,
+    "total_jobs": 3,
+    "passed_jobs": 3,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV64 Tier1 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-08-11T11:46:19Z",
+        "completed_at": "2026-08-11T11:51:12Z",
+        "duration_seconds": 293,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/31488029353/job/93768062864",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      },
+      {
+        "name": "RV32 Tier1 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-08-11T11:46:20Z",
+        "completed_at": "2026-08-11T11:49:25Z",
+        "duration_seconds": 185,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/31488029353/job/93768062887",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV32 Tier1 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-08-11T11:46:20Z",
+        "completed_at": "2026-08-11T11:48:44Z",
+        "duration_seconds": 144,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/31488029353/job/93768062888",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      }
+    ]
+  },
+  {
     "id": 31098530935,
     "source": "github-actions",
     "simulator": "verilator",
