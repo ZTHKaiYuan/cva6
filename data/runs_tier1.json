@@ -1,5 +1,60 @@
 [
   {
+    "id": 33841667262,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 37,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/33841667262",
+    "head_branch": "master",
+    "head_sha": "9a05a60b",
+    "event": "pull_request",
+    "created_at": "2026-09-04T05:45:14Z",
+    "updated_at": "2026-09-04T05:53:03Z",
+    "run_started_at": "2026-09-04T05:45:14Z",
+    "duration_seconds": 469,
+    "total_jobs": 3,
+    "passed_jobs": 3,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV64 Tier1 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-04T05:46:26Z",
+        "completed_at": "2026-09-04T05:53:01Z",
+        "duration_seconds": 395,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/33841667262/job/100925262701",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      },
+      {
+        "name": "RV32 Tier1 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-09-04T05:46:26Z",
+        "completed_at": "2026-09-04T05:48:37Z",
+        "duration_seconds": 131,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/33841667262/job/100925262725",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      },
+      {
+        "name": "RV32 Tier1 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-04T05:46:26Z",
+        "completed_at": "2026-09-04T05:50:11Z",
+        "duration_seconds": 225,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/33841667262/job/100925262775",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      }
+    ]
+  },
+  {
     "id": 33818939827,
     "source": "github-actions",
     "simulator": "verilator",
