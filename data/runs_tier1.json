@@ -1,5 +1,60 @@
 [
   {
+    "id": 34629456652,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 51,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/34629456652",
+    "head_branch": "master",
+    "head_sha": "49b5fa9e",
+    "event": "pull_request",
+    "created_at": "2026-09-11T17:45:15Z",
+    "updated_at": "2026-09-11T17:53:25Z",
+    "run_started_at": "2026-09-11T17:45:15Z",
+    "duration_seconds": 490,
+    "total_jobs": 3,
+    "passed_jobs": 3,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV32 Tier1 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-11T17:46:39Z",
+        "completed_at": "2026-09-11T17:51:29Z",
+        "duration_seconds": 290,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/34629456652/job/103362864219",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV64 Tier1 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-09-11T17:46:38Z",
+        "completed_at": "2026-09-11T17:53:24Z",
+        "duration_seconds": 406,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/34629456652/job/103362864227",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      },
+      {
+        "name": "RV32 Tier1 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-09-11T17:46:38Z",
+        "completed_at": "2026-09-11T17:48:51Z",
+        "duration_seconds": 133,
+        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/34629456652/job/103362864259",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      }
+    ]
+  },
+  {
     "id": 34595541810,
     "source": "github-actions",
     "simulator": "verilator",
@@ -2691,61 +2746,6 @@
         "arch": "rv64",
         "config": "cv64a6_imafdc_sv39_hpdcache_wb",
         "testcase": "cv64a6_imafdc_tests"
-      }
-    ]
-  },
-  {
-    "id": 26160391242,
-    "source": "github-actions",
-    "simulator": "verilator",
-    "run_number": 1,
-    "status": "completed",
-    "conclusion": "success",
-    "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/26160391242",
-    "head_branch": "master",
-    "head_sha": "9c2cf60a",
-    "event": "pull_request",
-    "created_at": "2026-05-20T11:45:19Z",
-    "updated_at": "2026-05-20T12:22:42Z",
-    "run_started_at": "2026-05-20T11:45:19Z",
-    "duration_seconds": 2243,
-    "total_jobs": 3,
-    "passed_jobs": 3,
-    "failed_jobs": 0,
-    "skipped_jobs": 0,
-    "jobs": [
-      {
-        "name": "RV64 Tier1 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
-        "conclusion": "success",
-        "started_at": "2026-05-20T12:17:17Z",
-        "completed_at": "2026-05-20T12:22:39Z",
-        "duration_seconds": 322,
-        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/26160391242/job/76955834666",
-        "arch": "rv64",
-        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
-        "testcase": "cv64a6_imafdc_tests"
-      },
-      {
-        "name": "RV32 Tier1 cv32a60x / cv32a6_tests",
-        "conclusion": "success",
-        "started_at": "2026-05-20T12:17:17Z",
-        "completed_at": "2026-05-20T12:20:04Z",
-        "duration_seconds": 167,
-        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/26160391242/job/76955834673",
-        "arch": "rv32",
-        "config": "cv32a60x",
-        "testcase": "cv32a6_tests"
-      },
-      {
-        "name": "RV32 Tier1 cv32a65x / smoke-tests-cv32a65x",
-        "conclusion": "success",
-        "started_at": "2026-05-20T12:17:19Z",
-        "completed_at": "2026-05-20T12:19:38Z",
-        "duration_seconds": 139,
-        "html_url": "https://github.com/ZTHKaiYuan/cva6/actions/runs/26160391242/job/76955834709",
-        "arch": "rv32",
-        "config": "cv32a65x",
-        "testcase": "smoke-tests-cv32a65x"
       }
     ]
   }
